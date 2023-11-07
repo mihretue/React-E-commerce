@@ -34,7 +34,7 @@ export default function navbar() {
         </Link>
       <List className='navbar-nav '>
         <li className='nav-item ml-5 ' style={{textTransform:'capitalize',fontWeight:"bolder"}}>
-            <Link to="/products" className='nav-link'>products</Link>
+            <Link to="/" className='nav-link'>products</Link>
         </li>
       </List>
         <Container>
