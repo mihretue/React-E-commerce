@@ -7,25 +7,24 @@ import Cart from "./components/pages/cart"
 import About from './components/pages/about'
 import ProductDetail from "./components/pages/productDetail"
 import Nopage from "./components/pages/noPage"
-import { BrowserRouter, Route, Routes  } from 'react-router-dom';
-import React from 'react'
+import { BrowserRouter as Router } from 'react-router-dom';
+import {Route, Routes } from "react-router-dom"
+import React, {Component} from 'react'
 
 
 
 function App() {
   return (
-    
     <React.Fragment>
       <Navbar/>
       <Routes>
-        <Route exact path='/' component={Products}/>
-        <Route path='/carts' component={Cart}/>
-        <Route path='/productDetail' component={ProductDetail}/>
-        <Route path='/about' component={About}/>
-        <Route path='/*' component={Nopage}/>
+        <Route exact path='/' Component={Products}/>
+        <Route path='/carts' Component={Cart}/>
+        <Route path='/productDetail' Component={ProductDetail}/>
+        <Route path='/about' Component={About}/>
+        <Route path='*' Component={Nopage}/>
       </Routes>
     </React.Fragment>
-    
   );
 }
 
