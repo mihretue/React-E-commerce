@@ -4,14 +4,16 @@ import { useGetAllProductsQuery as gett, productsApi} from '../../features/produ
 import styled from 'styled-components';
 import { useDispatch as dist } from 'react-redux';
 import { addToCart } from '../../features/cartSlice';
-
+import {useNavigate as preHIsto} from "react-router-dom"
 
 export default function productsList() {
   const { data,error, isLoading} = gett();
   const dispatch = dist();
+  const navigate = preHIsto();
 
   const handleAddToCart = (product) =>{
       dispatch(addToCart(product));
+      navigate('/carts')
   }
   
   return (
