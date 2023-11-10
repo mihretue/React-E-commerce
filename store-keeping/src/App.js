@@ -1,4 +1,5 @@
 import './App.css';
+import "react-toastify/dist/ReactToastify.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styled from "styled-components";
 import Navbar from "./components/pages/navbar"
@@ -10,12 +11,13 @@ import Nopage from "./components/pages/noPage"
 import { BrowserRouter as Router } from 'react-router-dom';
 import {Route, Routes } from "react-router-dom"
 import React, {Component} from 'react'
-
+import {ToastContainer} from "react-toastify"
 
 
 function App() {
   return (
     <React.Fragment>
+      <ToastContainer/>
       <Navbar/>
       <Routes>
         <Route exact path='/' Component={Products}/>

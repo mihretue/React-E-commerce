@@ -2,7 +2,7 @@ const  products = [
     {
         id:1,
         title:'Techno Phantom',
-        img:'https://res.cloudinary.com/dyg8xfttm/image/upload/v1699368283/onlineshop/hy6kz4fve7khdion3nip.jpg',
+        img:'https://res.cloudinary.com/dyg8xfttm/image/upload/v1699525041/onlineshop/nficbzoowfgjulsbt2wt.png',
         price:20,
         company:'Techno',
         info:"The Tecno Phantom X is a dual-SIM (GSM and GSM) mobile that accepts Nano-SIM and Nano-SIM cards.",
@@ -24,7 +24,7 @@ const  products = [
     
         id:3,
         title:'iPhone 13 Pro max',
-        img:'https://res.cloudinary.com/dyg8xfttm/image/upload/v1699367871/onlineshop/pmtptcv8dx12s8sdwwro.jpg',
+        img:'https://res.cloudinary.com/dyg8xfttm/image/upload/v1699524708/onlineshop/kgud4cwujjdvlz1ssgnq.png',
         price:30,
         company:'Apple',
         info:"The iPhone 13 Pro Max line-up and features a 6.7-inch Super Retina XDR display with 1284 x 2778 pixels resolution.",
